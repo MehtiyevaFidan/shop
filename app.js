@@ -254,7 +254,7 @@
         }
          ];
     goster();
-    kateqoriya.onclick = () => {
+    kateqoriya.oninput = () => {
         goster(kateqoriya.value);
     };
     function goster(category = '') {
